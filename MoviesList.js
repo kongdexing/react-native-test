@@ -19,6 +19,7 @@ var {
   TouchableHighlight,
   BackAndroid,
   Navigator,
+  Component,
 } = React;
 
 var API_KEY = '7waqfqbprs7pajbz28mqf6vz';
@@ -27,7 +28,6 @@ var PAGE_SIZE = 5;
 var PARAMS = '?apikey=' + API_KEY + '&page_limit=' + PAGE_SIZE;
 var REQUEST_URL=API_URL + PARAMS;
 var MOCKED_MOVIES_DATA = [{title:'标题',year:'2015',posters:{thumbnail:'http://i.imgur.com/UePbdph.jpg'}}];
-
 
 var MoviesList = React.createClass({
     
@@ -38,11 +38,17 @@ var MoviesList = React.createClass({
       }),
       loaded:false,
       myItemOpacity:1,
+      showContent:null,
     };
   }, 
 
   componentDidMount: function() {
+    console.log('MoviesList componentDidMount');
     this.fetchData();
+  },
+
+  componentWillUnmount:function() {
+    BackAndroid.removeEventListener('hardwareBackPress');
   },
 
   fetchData: function(){
@@ -64,12 +70,22 @@ var MoviesList = React.createClass({
       return this.renderLoadingView();
     }
 
-    return(
-      <ListView
-        dataSource={this.state.dataSource}
-        renderRow={this.renderMovie}
-        style={styles.listView}/>
-      );
+    if (!this.state.showContent) {
+      return(
+        <ListView
+          dataSource={this.state.dataSource}
+          renderRow={this.renderMovie}
+          style={styles.listView}/>
+        );
+    } else{
+      return(
+          <View style={styles.rightContainer}>
+                <View style={[{opacity:this.state.myItemOpacity}]}>
+                  <Text style={styles.welcome}>我回来了。。。</Text>
+                </View>
+            </View>
+        );
+    }
   },
 
   renderLoadingView:function(){
@@ -104,7 +120,19 @@ var MoviesList = React.createClass({
 
   _ListitemClick:function(movie){
       ToastAndroid.show(movie.title+"\n"+movie.year,ToastAndroid.SHORT);
-      this.props.navigator.push({component:SearchPage});
+      var _this = this;
+      //跳转-传值  
+      this.props.navigator.push({component:SearchPage,
+            params:
+              {
+                movieItem:movie.title,
+                onShowFinish:function (showtime) {
+                              _this.setState({
+                                  showContent:showtime
+                              })
+                            }
+              }
+            });      
   },
 
 });

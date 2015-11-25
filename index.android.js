@@ -6,6 +6,7 @@
 
 var React = require('react-native');
 var ToastAndroid = require('ToastAndroid');
+var WelcomeView = require('./WelcomeView');
 
 var {
   AppRegistry,
@@ -27,30 +28,24 @@ exports.title = '<Modal>';
 exports.description = 'Component for presenting modal views.';
 
 var demoProject = React.createClass({
-  renderScene:function(router,navigator){
-    var Component = router.component;
-    this._navigator = navigator;
-    // switch(router.name){
-    //     case "welcome":
-    //       Component = WelcomeView;
-    //       break;
-    //     default: //default view
-    //       Component = DefaultView;
-    //   }
-      return <Component navigator={navigator} />
-  },
+  // renderScene:function(router,navigator){
+  //   var Component = router.component;
+  //   this._navigator = navigator;
+  //   return <Component navigator={navigator} router={router} />
+  // },
 
   componentDidMount:function() {
+      console.log('index componentDidMount');
       var navigator = this._navigator;
+
       BackAndroid.addEventListener('hardwareBackPress', function() {
           if (navigator && navigator.getCurrentRoutes().length > 1) {
             navigator.pop();
             return true;
-          }
+          } 
           return false;
       });
   },
-
 
   componentWillUnmount:function() {
     BackAndroid.removeEventListener('hardwareBackPress');
@@ -61,7 +56,12 @@ var demoProject = React.createClass({
           <Navigator
                 initialRoute={{component:WelcomeView}}
                 configureScene={()=>Navigator.SceneConfigs.FadeAndroid}
-                renderScene={this.renderScene} />
+                renderScene={(router,navigator)=>{
+                    var Component = router.component;
+                    this._navigator = navigator;
+                    //... 语法，解析params中全部信息
+                    return <Component navigator={navigator} {...router.params}/>
+                }} />
         );
    },
 

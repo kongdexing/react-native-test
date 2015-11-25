@@ -11,19 +11,31 @@ var{
 } = React;
 
 var WelcomeView = React.createClass({
-    onPressFeed() {
-      this.props.navigator.push({component:MoviesList});
+    
+    getInitialState:function () {
+      return{
+        listCount:0
+      };
+    },
+
+    onPressFeed:function() {
+      var _this = this;
+      this.props.navigator.push({
+        component:MoviesList
+      });
     },
 
     render() {
-        return (
+      return (
             <View style={styles.container}>
                 <Text style={styles.welcome} onPress={this.onPressFeed} >
-                    This is welcome view.Tap to go to feed view.
+                    This is welcome view.Tap to go to MoviesList view.
                 </Text>
             </View>
         );
+      
     }
+    
 });
 
 var styles = StyleSheet.create({

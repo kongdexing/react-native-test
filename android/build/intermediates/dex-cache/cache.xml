@@ -2,6 +2,97 @@
 <items version="2" >
 
     <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-73e7aa891d3193ce258d0ae5bdc0e1b1a6427870.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-04d131e61ef895777ed94f07502bc497d4c2d160.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-e2e076c4247ea4492cde2a681c992095d0a4f0f8.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.14.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="524baea148a06c6cabf75bd83932f00bf734907f">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-de554e83918acd6032c92aa4b673074d4e8e360d.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-57186f231e6092966ad2a217f8d4e3824fde22fe.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd4c42401d36342901ac4280fb92a831f8007f3d">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-34db2c80bf4c00e32105ec25c7ba4b407589ec1c.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-9146684b7fcbe9ab034ea8d590615765d27a7920.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-1b98e8a9826ac0d2624c768cd39a23b3d23ef405.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-441087d54a8ec284cb5b6b70a6b10fa6b0214f21.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.14.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-8f4330c29b780e8e01445a3c8465dc1743dfa1d0.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-0eb6a4a379edf439967938a94bec01f7b979312a.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-1520d717a4b200d2bb280117f70b1481031db57d.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-44a0acbd8fea2ced11fe21958035422bc1398e1d.jar" />
+    </item>
+    <item
         jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.6.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -9,18 +100,11 @@
         <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-f4599d69f07655402ddd85f34ce1fa566f4ca59a.jar" />
     </item>
     <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-3afe6e834aff28dc04c9175c8281217c0bddeb40.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-bca26d069198d1741de48186c632ad6c0a299bf2.jar" />
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-2f807618759f31b4ab3913e670d4f81791714818.jar" />
     </item>
     <item
         jar="/home/kongdexing/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
@@ -37,18 +121,39 @@
         <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.4.0-0ce2deda39bd7b0dbcb93078fb02c084ad86b265.jar" />
     </item>
     <item
-        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.5.0/bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a/okio-1.5.0.jar"
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="bb7d4d96e780e8ef4f275c7d8dd3ef2883ddf99a">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/okio-1.5.0-e2e076c4247ea4492cde2a681c992095d0a4f0f8.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-3afe6e834aff28dc04c9175c8281217c0bddeb40.jar" />
     </item>
     <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-7d1460326b3e73513c2b3c5ca8b5468865b36e04.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-d27cc8c131509f44bacd18710357d09b56108616.jar" />
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-17cf08278ebb98f1d8417f7044ba0f75c048bcef.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-7ec402da0cb2239017701db4b45c9d60ac43b267.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-b6acb73d4195b1c46e7030293efdd6b835a5376b.jar" />
     </item>
     <item
         jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
@@ -58,74 +163,25 @@
         <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-b6ff489e798a95ffd3ff25176fdae39e233aa9a0.jar" />
     </item>
     <item
-        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-0eb6a4a379edf439967938a94bec01f7b979312a.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-04d131e61ef895777ed94f07502bc497d4c2d160.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-1b98e8a9826ac0d2624c768cd39a23b3d23ef405.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.6.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="eb9817e26186e1a267cdd14211742ecc793de32e">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-9146684b7fcbe9ab034ea8d590615765d27a7920.jar" />
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-dd08e3c9568ee3cf61e857b242cc23c0aa7ee9cf.jar" />
     </item>
     <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-b254ccaf9df585ae2d731c3c291aa2191cff9aaf.jar" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-d27cc8c131509f44bacd18710357d09b56108616.jar" />
     </item>
     <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/jars/classes.jar"
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-eb7065989525e5d48bfc6830b70aabc83af3bbd0.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.14.0/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-8f4330c29b780e8e01445a3c8465dc1743dfa1d0.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp/0.6.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1d5fddbfc516e39dd74d776e5cca8b761721990b">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-73e7aa891d3193ce258d0ae5bdc0e1b1a6427870.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-57186f231e6092966ad2a217f8d4e3824fde22fe.jar" />
-    </item>
-    <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.14.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="524baea148a06c6cabf75bd83932f00bf734907f">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-de554e83918acd6032c92aa4b673074d4e8e360d.jar" />
+        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-5c483dfc8889f1252af7541f42dd925d61811ecf.jar" />
     </item>
     <item
         jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
@@ -135,11 +191,39 @@
         <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-e33a9a8620ac8ff7983c6d4e5213ed7f889d1798.jar" />
     </item>
     <item
-        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.6.1/jars/classes.jar"
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/org.webkit/android-jsc/r174650/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="c10091a128e47ed4ef804bd753c0f45745699756">
-        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-7ec402da0cb2239017701db4b45c9d60ac43b267.jar" />
+        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-eb7065989525e5d48bfc6830b70aabc83af3bbd0.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.14.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="524baea148a06c6cabf75bd83932f00bf734907f">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/classes-19e9e9c36f0a804bfe33040372ff44017577d91d.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-bca26d069198d1741de48186c632ad6c0a299bf2.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/demoProject/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af0fe468c884e2d153cf564326b23b54ff0040ce">
+        <dex dex="/home/kongdexing/react/demoProject/android/app/build/intermediates/pre-dexed/debug/classes-b254ccaf9df585ae2d731c3c291aa2191cff9aaf.jar" />
+    </item>
+    <item
+        jar="/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.14.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0b5e946b76cdb1f00b18f2981e7d997141a66c9f">
+        <dex dex="/home/kongdexing/react/react-native-test/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-c42179c73f01a64defe5166124fc3e4b29c452dc.jar" />
     </item>
 
 </items>
