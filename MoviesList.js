@@ -34,7 +34,10 @@ var MoviesList = React.createClass({
   getInitialState:function(){
     return {
       dataSource: new ListView.DataSource({
-        rowHasChanged:(row1,row2)=> row1!==row2,
+        /*rowHasChanged:(row1,row2)=> row1!==row2,*/
+        rowHasChanged:function(row1,row2){
+            row1 !== row2;
+        },
       }),
       loaded:false,
       myItemOpacity:1,
@@ -89,7 +92,7 @@ var MoviesList = React.createClass({
   },
 
   renderLoadingView:function(){
-    ToastAndroid.show("正在加载电影数据……",ToastAndroid.SHORT);
+    ToastAndroid.show("加载电影数据……",ToastAndroid.SHORT);
     return(
       <View style={styles.container}>
         <Text>
@@ -122,8 +125,9 @@ var MoviesList = React.createClass({
       ToastAndroid.show(movie.title+"\n"+movie.year,ToastAndroid.SHORT);
       var _this = this;
       //跳转-传值  
-      this.props.navigator.push({component:SearchPage,
-            params:
+      this.props.navigator.push(
+        {component:SearchPage,
+         params:
               {
                 movieItem:movie.title,
                 onShowFinish:function (showtime) {
