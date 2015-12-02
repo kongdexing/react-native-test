@@ -1,8 +1,7 @@
-package com.demoproject;
+package com.demoproject.module;
 
 import android.widget.Toast;
 
-import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -15,7 +14,7 @@ import javax.annotation.Nullable;
 /**
  * Created by kongdexing on 11/20/15.
  */
-public class ToastModule extends ReactContextBaseJavaModule{
+public class ToastModule extends ReactContextBaseJavaModule {
 
     private static final String DURATION_SHORT_KEY = "SHORT";
     private static final String DURATION_LONG_KEY = "LONG";
@@ -40,8 +39,13 @@ public class ToastModule extends ReactContextBaseJavaModule{
 
     //添加注解，表明被js调用
     @ReactMethod
-    public void show(String message,int duration){
-        Toast.makeText(getReactApplicationContext(),message,duration).show();
+    public void show(String message, int duration) {
+        Toast.makeText(getReactApplicationContext(), message, duration).show();
+    }
+
+    @ReactMethod
+    public void addition(int a, int b) {
+        Toast.makeText(getReactApplicationContext(), a + b + "", Toast.LENGTH_LONG).show();
     }
 
 }

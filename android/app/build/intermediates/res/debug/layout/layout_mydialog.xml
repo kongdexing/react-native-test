@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#dcdcdc">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/dialog_textview_title"
+            android:text="@string/title_hint" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@mipmap/icon_split_horizontal" />
+        <!-- 传入的自定义视图 -->
+
+        <LinearLayout
+            android:id="@+id/ll_dialogview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@mipmap/icon_split_horizontal" />
+
+        <!-- 取消,确定按钮 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:id="@+id/txt_cancle"
+                style="@style/dialog_btn"
+                android:background="@drawable/button_dailog"
+                android:text="取消" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/icon_split_vertical" />
+
+            <TextView
+                android:id="@+id/txt_confirm"
+                style="@style/dialog_btn"
+                android:background="@drawable/button_dailog"
+                android:text="确定" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/home/kongdexing/react/react-native-test/android/app/src/main/res/layout/layout_mydialog.xml -->

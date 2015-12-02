@@ -1,7 +1,8 @@
 'use strict'
 
 var React = require('react-native');
-var ToastAndroid = require('./ToastAndroid');
+var ToastAndroid = require('./module/ToastAndroid');
+var TestModule = require('./module/TestModule');
 var StringUtil = require('./utils/StringUtil');
 
 var {
@@ -61,7 +62,10 @@ var FetchLoginView = React.createClass({
 		var _pwd = StringUtil.strTrim(this.state.pwd);
 		
 		if (_name.length==0||_pwd.length==0) {
-			ToastAndroid.show("请将信息输入完整",ToastAndroid.SHORT);
+			TestModule.addition(1,2,(msg,data)=>{
+					ToastAndroid.show(msg+data,ToastAndroid.SHORT);
+			});
+			//ToastAndroid.show("请将信息输入完整",ToastAndroid.SHORT);
 			return;
 		} else {
 			//ToastAndroid.show("name "+_name+"\n pwd "+_pwd,ToastAndroid.SHORT);

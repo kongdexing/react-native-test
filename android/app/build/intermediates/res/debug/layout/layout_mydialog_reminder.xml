@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdcdc"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_token"
+        style="@style/dialog_textview_content"
+        android:text="" />
+
+</LinearLayout><!-- From: file:/home/kongdexing/react/react-native-test/android/app/src/main/res/layout/layout_mydialog_reminder.xml -->

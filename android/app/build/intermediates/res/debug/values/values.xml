@@ -244,9 +244,18 @@
     <string name="catalyst_settings_title" project="catalyst">Catalyst Dev Settings</string>
     <string name="catalyst_start_profile" project="catalyst" translatable="false">Start Profile</string>
     <string name="catalyst_stop_profile" project="catalyst" translatable="false">Stop Profile</string>
+    <!-- From: file:/home/kongdexing/react/react-native-test/android/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="msg_bluetooth_unavailable">蓝牙模块不可用</string>
     <!-- From: file:/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <!-- From: file:/home/kongdexing/react/react-native-test/android/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_hint">提示</string>
+    <string name="txt_bluetooth_open">您还没有打开蓝牙，立即打开？</string>
+    <!-- From: file:/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1199,6 +1208,16 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
+    <!-- From: file:/home/kongdexing/react/react-native-test/android/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DialogRowValue" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#7FFFFFFF</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">7dp</item>
+    </style>
+    <!-- From: file:/home/kongdexing/react/react-native-test/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
@@ -1556,4 +1575,35 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
+    <!-- From: file:/home/kongdexing/react/react-native-test/android/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="dialog_btn" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#33a501</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="dialog_textview_content" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="dialog_textview_title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>

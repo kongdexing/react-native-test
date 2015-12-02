@@ -1,5 +1,8 @@
-package com.demoproject;
+package com.demoproject.reactpackage;
 
+import com.demoproject.module.BluetoothModule;
+import com.demoproject.module.TestModule;
+import com.demoproject.module.ToastModule;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -43,6 +46,8 @@ public class ExampleReactPackage implements ReactPackage {
     public List<NativeModule> createNativeModules(ReactApplicationContext reactApplicationContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new ToastModule(reactApplicationContext));
+        modules.add(new BluetoothModule(reactApplicationContext));
+        modules.add(new TestModule(reactApplicationContext));
         return modules;
     }
 }

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">demoProject</string>
+
+    <string name="title_hint">提示</string>
+    <string name="txt_bluetooth_open">您还没有打开蓝牙，立即打开？</string>
+    <string name="msg_bluetooth_unavailable">蓝牙模块不可用</string>
+
 </resources>

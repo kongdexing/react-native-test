@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react-native');
-var ToastAndroid = require('ToastAndroid');
+var ToastAndroid = require('./module/ToastAndroid');
 
 var{
 	StyleSheet,

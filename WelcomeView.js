@@ -8,6 +8,7 @@ var Thumb = require('./ScrollViewExample');
 var NavigationBarSample = require('./navigator/NavigationBarSample');
 var NavButton = require('./navigator/NavButton');
 var FetchLoginView = require('./FetchLogin');
+var BluetoothList = require('./BluetoothList');
 
 var{
 	StyleSheet,
@@ -97,6 +98,14 @@ var WelcomeView = React.createClass({
                           });
                         }}
                   texttitle="Fetch test"/>
+
+                <NavButton
+                  onPress={()=>{
+                          this.props.navigator.push({
+                            component:BluetoothList
+                          });
+                        }}
+                  texttitle="Bluetooth List"/>
 
             </ScrollView>
         )}

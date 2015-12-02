@@ -5,7 +5,7 @@
 'use strict';
 
 var React = require('react-native');
-var ToastAndroid = require('ToastAndroid');
+var ToastAndroid = require('./module/ToastAndroid');
 var SearchPage = require('./SearchPage');
 
 var {
@@ -27,7 +27,7 @@ var API_URL = 'http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_the
 var PAGE_SIZE = 5;
 var PARAMS = '?apikey=' + API_KEY + '&page_limit=' + PAGE_SIZE;
 var REQUEST_URL=API_URL + PARAMS;
-var MOCKED_MOVIES_DATA = [{title:'标题',year:'2015',posters:{thumbnail:'http://i.imgur.com/UePbdph.jpg'}}];
+//var MOCKED_MOVIES_DATA = [{title:'标题',year:'2015',posters:{thumbnail:'http://i.imgur.com/UePbdph.jpg'}}];
 
 var MoviesList = React.createClass({
     
@@ -74,11 +74,17 @@ var MoviesList = React.createClass({
     }
 
     if (!this.state.showContent) {
+      ToastAndroid.show("加载完成。。",ToastAndroid.SHORT);  
       return(
-        <ListView
-          dataSource={this.state.dataSource}
-          renderRow={this.renderMovie}
-          style={styles.listView}/>
+        // <ListView
+        //   dataSource={this.state.dataSource}
+        //   renderRow={this.renderMovie}
+        //   style={styles.listView}/>
+         <View style={styles.container}>
+          <Text>
+            加载完成。。
+          </Text>
+        </View>
         );
     } else{
       return(
